@@ -3,6 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  color: aliceblue;
 }
 
 nav {
@@ -113,5 +114,11 @@ nav .fa {
   nav .fa {
     display: none;
   }
+}
+
+fieldset {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+  background-image: radial-gradient(purple, red);
 }
 /*# sourceMappingURL=style.css.map */

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: aliceblue;
 }
 
 nav {
@@ -89,4 +90,8 @@ nav {
             display: none;
         }
     }
+}
+fieldset{
+    transform: translateY(20%);
+    background-image: radial-gradient(purple ,red );
 }
