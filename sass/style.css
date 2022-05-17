@@ -121,4 +121,12 @@ fieldset {
           transform: translateY(20%);
   background-image: radial-gradient(purple, red);
 }
+
+.fa {
+  color: black;
+}
+
+.fa:hover {
+  color: blue;
+}
 /*# sourceMappingURL=style.css.map */

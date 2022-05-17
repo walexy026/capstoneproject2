@@ -95,3 +95,19 @@ fieldset{
     transform: translateY(20%);
     background-image: radial-gradient(purple ,red );
 }
+// .p2{
+//     position: relative;
+//     color: black;
+//     left: 40vw;
+//     top: 2em;
+// }
+// .p1{
+//     @extend .p2;
+//     left: 52vw;
+// }
+.fa{
+    color: black;
+    &:hover{
+       color: blue;
+    }
+}
