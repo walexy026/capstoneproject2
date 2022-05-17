@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-item-align: center;
+      align-self: center;
+  background-color: #64136b;
+  padding: 10px;
+}
+
+nav .bolt img {
+  padding-top: 2vh;
+  border-radius: 50%;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  width: 50px;
+}
+
+nav .navBar {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  gap: 5vw;
+  text-align: left;
+  padding-top: 2vh;
+}
+
+nav .navBar a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+nav .navBar #btn2.btn {
+  display: none;
+}
+
+@media screen and (max-width: 780px) {
+  nav .navBar #btn2.btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  nav .navBar {
+    display: block;
+    position: absolute;
+    background-color: #7c147c;
+    color: white;
+    top: 67px;
+    left: -200vh;
+  }
+  nav .navBar.show {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    background-color: transparent;
+    min-height: 400px;
+    color: white;
+    top: 49px;
+    left: -125px;
+  }
+}
+
+nav .btn1 {
+  background-color: black;
+  border-radius: 50px;
+  color: aliceblue;
+  height: 45px;
+  margin-top: 5px;
+  font-size: 14px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 780px) {
+  nav .btn1 {
+    display: none;
+  }
+}
+
+nav .btn1:hover {
+  background-color: beige;
+  color: brown;
+  pointer-events: visible;
+  cursor: pointer;
+}
+
+nav .fa {
+  padding-top: 2vh;
+  color: aliceblue;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 780px) {
+  nav .fa {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
